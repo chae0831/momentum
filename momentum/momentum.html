@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mmt.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap"
+      rel="stylesheet"
+    />
+    <title>momentum</title>
+  </head>
+
+  <body>
+    <!-- weather -->
+    <div class="weather__container">
+      <span class="js-weather weather"></span>
+    </div>
+
+    <div class="container">
+      <!-- 시계설정 -->
+      <div class="js-clock">
+        <h1>00:00</h1>
+      </div>
+
+      <!-- 이름 저장 -->
+      <form action="" class="js-form form">
+        <input type="text" placeholder="what is your name?" />
+      </form>
+      <h3 class="js-greetings greetings"></h3>
+
+      <!-- todo list -->
+      <form action="" class="js-todoForm todoForm">
+        <input class="toDo" type="text" placeholder="write a to do!" />
+      </form>
+      <ul class="js-toDoList toDoList"></ul>
+    </div>
+
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
