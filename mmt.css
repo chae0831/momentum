@@ -43,6 +43,7 @@ button {
   text-align: center;
 }
 
+.form__name,
 .toDo {
   text-align: center;
   font-size: 24px;
@@ -50,13 +51,14 @@ button {
   height: 44px;
   border: 1px solid #e5e5e5;
   border-radius: 5px;
-  margin: 0 20px;
+  margin: 10px 20px;
   padding: 0 10px;
   outline: none;
 }
 
+.form__name:focus,
 .toDo:focus {
-  border: 1px solid #51a7e8;
+  border: 2px solid #51a7e8;
   color: #51a7e8;
 }
 
